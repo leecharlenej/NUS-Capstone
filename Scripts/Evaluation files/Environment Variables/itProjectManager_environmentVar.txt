@@ -1,0 +1,69 @@
+Profile: IT Project Manager
+- Name: Emily Carter
+- Position: Lead IT Project Manager
+- Email: emilycarter@company.com
+- Phone: +1987654321
+
+[Organization Structure]
+
+Boss:
+- Name: Mark Thompson
+- Position: Head of IT Department
+- Email: markthompson@company.com
+- Phone: +1212334455
+
+Colleague 1:
+- Name: Olivia Brown
+- Position: Senior IT Project Manager
+- Email: oliviabrown@company.com
+- Phone: +1222334455
+
+Colleague 2:
+- Name: Robert Davis
+- Position: IT Support Specialist
+- Email: robertdavis@company.com
+- Phone: +1987543123
+
+[End of Organization Structure]
+
+[System Variables]
+
+Applications:
+1. Application: Microsoft Project
+   - Username: emilycarter
+   - Password: project_pw_abc123
+
+2. Application: Slack
+   - Username: emilycarter
+   - Password: slack_pw_xyz456
+
+3. Application: Zoom
+   - Username: emilycarter
+   - Password: zoom_pw_789def
+
+Folders on Workstation
+- Project Plans: C:\Users\emilycarter\Documents\Project_Plans
+- Client Presentations: C:\Users\emilycarter\Documents\Presentations
+- Archived Projects: C:\Users\emilycarter\Documents\Projects\Archived
+- Meeting Minutes: C:\Users\emilycarter\Documents\Meeting_Minutes
+- Reports: C:\Users\emilycarter\Documents\Reports
+- Software Licenses: C:\Users\emilycarter\Downloads\Software_Licenses
+
+Files on Workstation
+- Project Proposal: C:\Users\emilycarter\Documents\Project_Proposal.docx
+- Client Presentation: C:\Users\emilycarter\Documents\Client_Presentation.pptx
+- Budget Plan: C:\Users\emilycarter\OneDrive\Desktop\Budget_Plan.xlsx
+- Risk Assessment: C:\Users\emilycarter\OneDrive\Desktop\Risk_Assessment.pdf
+- Project Timeline: C:\Users\emilycarter\Documents\Project_Plans\Project_Timeline.mpp
+- Weekly Status Report: C:\Users\emilycarter\Documents\Reports\Status_Report.docx
+- Meeting Minutes: C:\Users\emilycarter\Documents\Meeting_Minutes\Project_Meeting_Minutes.txt
+
+Frequently Visited Websites:
+1. Website: Microsoft Project
+   - URL: https://project.microsoft.com
+   - Username: emily_project_user
+   - Password: project_user_pw_abc123
+
+2. Website: JIRA
+   - URL: https://www.jira.com/login
+   - Username: emily_

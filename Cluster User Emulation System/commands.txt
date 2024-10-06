@@ -1,0 +1,10 @@
+╔═════════════════════════════════════╗
+║             Monitor Hub             ║
+╚═════════════════════════════════════╝
+cd C:\Users\leech\Downloads\00. School\Capstone\Cluster_User_Emulation_System-main\src\monitorHub\frontend
+
+
+╔═════════════════════════════════════╗
+║             Run agents              ║
+╚═════════════════════════════════════╝
+cd C:\Users\leech\Downloads\00. School\Capstone\Cluster_User_Emulation_System-main\src\actionScheduler

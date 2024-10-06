@@ -1,0 +1,119 @@
+1. Code Development
+- Writing new code for features or applications.
+
+2. Code Review
+- Reviewing code changes submitted by team members.
+
+3. Software Debugging
+- Identifying and fixing bugs in the software.
+
+4. Feature Design and Planning
+- Collaborating to design new features.
+
+5. System Maintenance
+- Performing routine maintenance on existing software.
+
+6. Troubleshooting
+- Diagnosing and resolving system or application issues.
+
+7. Performance Optimization
+- Improving the performance of software applications.
+
+8. Documentation
+- Creating and updating technical documentation.
+
+9. Project Management
+- Managing tasks and timelines using project management tools.
+
+10. Testing
+- Writing and executing unit and integration tests.
+
+11. Deployment
+- Preparing and deploying code to various environments.
+
+12. Code Refactoring
+- Refactoring existing code to improve maintainability.
+
+13. Collaboration and Meetings
+- Participating in daily stand-ups and sprint planning.
+
+14. Learning and Research
+- Staying updated with the latest industry trends.
+
+15. Security Review
+- Reviewing code for potential security vulnerabilities.
+
+16. Customer Support
+- Assisting with technical inquiries from customers or users.
+
+17. Infrastructure Management
+- Managing cloud services and servers.
+
+18. CI/CD Pipeline Maintenance
+- Setting up and maintaining CI/CD pipelines.
+
+19. Version Control Management
+- Managing code repositories and version control systems.
+
+20. Automated Testing
+- Developing and maintaining automated tests for continuous integration.
+
+21. User Interface Design
+- Collaborating with designers to implement user interfaces.
+
+22. Backend Development
+- Building and maintaining server-side logic.
+
+23. Database Management
+- Designing and optimizing database schemas.
+
+24. Code Merging
+- Integrating changes from different branches into the main codebase.
+
+25. API Development
+- Developing and maintaining APIs for external and internal use.
+
+26. Logging and Monitoring
+- Setting up and monitoring logs for application performance.
+
+27. Data Analysis
+- Analyzing data to improve system efficiency and performance.
+
+28. Bug Triage
+- Prioritizing and assigning bugs for resolution.
+
+29. Unit Testing
+- Writing and maintaining unit tests for new and existing code.
+
+30. Load Testing
+- Performing load testing to ensure system scalability.
+
+31. Continuous Integration Setup
+- Configuring CI tools for automated builds and tests.
+
+32. Technical Support
+- Providing technical support to internal teams and users.
+
+33. Code Deployment Automation
+- Automating deployment processes for faster delivery.
+
+34. Patch Management
+- Applying patches to fix software vulnerabilities.
+
+35. Environment Setup
+- Setting up development and staging environments.
+
+36. API Integration
+- Integrating third-party APIs with existing systems.
+
+37. Task Automation
+- Automating repetitive tasks using scripts or tools.
+
+38. Compliance Checks
+- Ensuring software meets regulatory and compliance standards.
+
+39. Risk Assessment
+- Identifying and mitigating risks in software projects.
+
+40. Technical Training
+- Providing training to team members on new tools or technologies.

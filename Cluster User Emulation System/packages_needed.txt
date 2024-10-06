@@ -1,0 +1,8 @@
+Packages needed to create environment for Yuancheng's system:
+
+
+pip install webdriver_manager
+pip install GitPython
+pip install PyQt5
+pip install PyQtWebEngine
+pip install pyfiglet
