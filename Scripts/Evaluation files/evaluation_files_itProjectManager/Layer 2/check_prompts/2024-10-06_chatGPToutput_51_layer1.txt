@@ -1,0 +1,121 @@
+Context:
+Actions - Parameters
+Ping target: ipAddress, pingInterval, pingEchoNum, pingTimeout
+Use browser to open URL: url,watchInterval
+Open Word document: filePath, openInterval
+Run one command: cmdID,console, cmdStr, repeat, interval
+Clone repo: dirPath, repoName, reporURL
+Hold Zoom meeting: username, meetingURL
+Take screenshot of website: url, outputFolder, driverMode
+Send Telegram: token, chatID, message
+Send email: username, appPassword, recipients, subject, message
+
+Layer 1 Output:
+```
+9:07 AM - Check and respond to overnight emails
+9:32 AM - Team stand-up meeting via video call
+10:04 AM - Review project timeline and milestones
+10:42 AM - Task Scheduling for next project phase
+11:16 AM - Coffee break and casual chat with a colleague
+11:34 AM - Project Audit Preparation: gather necessary documentation
+12:03 PM - Lunch break and brief scroll on social media
+12:47 PM - Send a quick telegram chat to a friend
+1:11 PM - Project Scope Adjustment meeting with stakeholders
+1:45 PM - Update project management software with recent changes
+2:13 PM - Lessons Learned Documentation for recently completed project
+2:49 PM - Take a quick walk around the office building
+3:07 PM - Call with a vendor to discuss service changes
+3:38 PM - Prepare presentation slides for tomorrow's client meeting
+4:02 PM - Feedback session with team members about ongoing tasks
+4:27 PM - Review and sign off on deliverables submitted by the team
+4:53 PM - Plan tasks and priorities for the next day
+```
+
+Environment details:
+Profile: IT Project Manager
+- Name: Emily Carter
+- Position: Lead IT Project Manager
+- Email: emilycarter@company.com
+- Phone: +1987654321
+
+[Organization Structure]
+
+Boss:
+- Name: Mark Thompson
+- Position: Head of IT Department
+- Email: markthompson@company.com
+- Phone: +1212334455
+
+Colleague 1:
+- Name: Olivia Brown
+- Position: Senior IT Project Manager
+- Email: oliviabrown@company.com
+- Phone: +1222334455
+
+Colleague 2:
+- Name: Robert Davis
+- Position: IT Support Specialist
+- Email: robertdavis@company.com
+- Phone: +1987543123
+
+[End of Organization Structure]
+
+[System Variables]
+
+Applications:
+1. Application: Microsoft Project
+   - Username: emilycarter
+   - Password: project_pw_abc123
+
+2. Application: Slack
+   - Username: emilycarter
+   - Password: slack_pw_xyz456
+
+3. Application: Zoom
+   - Username: emilycarter
+   - Password: zoom_pw_789def
+
+Folders on Workstation
+- Project Plans: C:\Users\emilycarter\Documents\Project_Plans
+- Client Presentations: C:\Users\emilycarter\Documents\Presentations
+- Archived Projects: C:\Users\emilycarter\Documents\Projects\Archived
+- Meeting Minutes: C:\Users\emilycarter\Documents\Meeting_Minutes
+- Reports: C:\Users\emilycarter\Documents\Reports
+- Software Licenses: C:\Users\emilycarter\Downloads\Software_Licenses
+
+Files on Workstation
+- Project Proposal: C:\Users\emilycarter\Documents\Project_Proposal.docx
+- Client Presentation: C:\Users\emilycarter\Documents\Client_Presentation.pptx
+- Budget Plan: C:\Users\emilycarter\OneDrive\Desktop\Budget_Plan.xlsx
+- Risk Assessment: C:\Users\emilycarter\OneDrive\Desktop\Risk_Assessment.pdf
+- Project Timeline: C:\Users\emilycarter\Documents\Project_Plans\Project_Timeline.mpp
+- Weekly Status Report: C:\Users\emilycarter\Documents\Reports\Status_Report.docx
+- Meeting Minutes: C:\Users\emilycarter\Documents\Meeting_Minutes\Project_Meeting_Minutes.txt
+
+Frequently Visited Websites:
+1. Website: Microsoft Project
+   - URL: https://project.microsoft.com
+   - Username: emily_project_user
+   - Password: project_user_pw_abc123
+
+2. Website: JIRA
+   - URL: https://www.jira.com/login
+   - Username: emily_
+.
+
+Task:
+For each task listed under Layer 1 Output, generate a time-stamped schedule of actions, from the list provided under Context, needed to complete the task.
+If no actions can complete the task, drop the task and indicate it with [task dropped].
+
+The software engineer's details are listed under environment details.
+Please include the relevant parameter values when necessary. You do not need to include all the values for each parameter.
+For parameters whose values are not included in the text file, please generate relevant and working values. If they refer to the software engineer's personal details not listed in the text file, please put [placeholder].
+
+
+Format:
+Please generate in the following format:
+Time,Action,Description,Parameter1,Value1,Parameter2,Value2,Parameter3,Value3,Parameter4,Value4,Parameter5,Value5
+09:00,Use browser to open URL,Watch YouTube,url,"https://www.youtube.com/watch?v=NQ1cvwEvh44",watchInterval,10,,,,
+10:00,Run one command,Ping google.com,cmdID,"pingGoogle",console,True,cmdStr,"ping -n 5 www.google.com.sg",repeat,1,interval,0.8
+11:00,Open Word document,Key in results of command,fileName,"placeholder.docx",openInterval,10,,,,
+13:30,Ping target,Ping www.singtel.com.sg,ipAddress,"www.singtel.com.sg",pingInterval,0.1,pingEcho,5,pingTimeout,1
