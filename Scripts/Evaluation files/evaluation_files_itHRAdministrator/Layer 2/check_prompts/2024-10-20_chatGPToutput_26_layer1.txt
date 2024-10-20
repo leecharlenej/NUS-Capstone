@@ -1,0 +1,147 @@
+Context:
+Actions - Parameters
+Ping target: ipAddress, pingInterval, pingEchoNum, pingTimeout
+Use browser to open URL: url,watchInterval
+Open Word document: filePath, openInterval
+Run one command: cmdID,console, cmdStr, repeat, interval
+Clone repo: dirPath, repoName, reporURL
+Hold Zoom meeting: username, meetingURL
+Take screenshot of website: url, outputFolder, driverMode
+Send Telegram: token, chatID, message
+Send email: username, appPassword, recipients, subject, message
+
+Layer 1 Output:
+```
+9:13 AM - Log into the HR management portal and skim through the day's priorities and alerts.
+9:41 AM - Review and update employee vacation requests in the attendance system.
+10:11 AM - Hold a virtual seminar on best practices for inclusivity and diversity.
+10:54 AM - Enjoy a quick coffee break and discuss travel plans with a colleague.
+11:19 AM - Coordinate with the finance team to address any payroll discrepancies.
+11:48 AM - Analyze last quarter’s employee performance data and prepare an update for managers.
+12:06 PM - Browse through social media for a brief mental break.
+12:22 PM - Lunch break.
+12:58 PM - Join an online workshop focused on emerging trends in HR technology.
+1:35 PM - Review and amend company policies in the light of recent feedback from legal advisors.
+2:07 PM - Respond to queries on the employee helpdesk regarding health insurance benefits.
+2:39 PM - Take a brisk walk outside to clear your mind before the next meeting.
+2:57 PM - Collaborate with department heads to update job descriptions for current open roles.
+3:28 PM - Develop a proposal for the upcoming employee mentorship initiative.
+3:52 PM - Send a quick Telegram message to a friend to stay in touch.
+4:16 PM - Review employee satisfaction surveys and prepare recommendations for improvements.
+4:43 PM - Spend a few moments on social media to unwind.
+4:56 PM - Finalize and submit end-of-day HR summary reports to the management team.
+5:11 PM - Log off, organize the workspace, and prepare a prioritized task list for the following day.
+```
+
+Environment details:
+Profile: IT HR Administrator
+
+Name: Jessica Lee
+Position: Lead IT HR Administrator
+Email: jessicalee@company.com
+Phone: +1234987654
+[Organization Structure]
+
+Boss:
+
+Name: Michael Johnson
+Position: HR Director
+Email: michaeljohnson@company.com
+Phone: +1123456789
+Colleague 1:
+
+Name: David Kim
+Position: Senior IT Recruiter
+Email: davidkim@company.com
+Phone: +1123456780
+Colleague 2:
+
+Name: Laura Smith
+Position: IT HR Specialist
+Email: laurasmith@company.com
+Phone: +1234567800
+[End of Organization Structure]
+
+[System Variables]
+
+Applications:
+
+Application: Workday
+
+Username: jessicalee
+Password: workday_pw_abc123
+Application: BambooHR
+
+Username: jessicalee
+Password: bamboohr_pw_xyz456
+Application: Zoom
+
+Username: jessicalee
+Password: zoom_pw_123abc
+Folders on Workstation:
+
+Employee Records: C:\Users\jessicalee\Documents\Employee_Records
+Recruitment Documents: C:\Users\jessicalee\Documents\Recruitment
+Archived Reports: C:\Users\jessicalee\Documents\HR\Archived
+Training Materials: C:\Users\jessicalee\Documents\Training
+Compliance Documents: C:\Users\jessicalee\Documents\Compliance
+Payroll Reports: C:\Users\jessicalee\Downloads\Payroll
+Files on Workstation:
+
+Onboarding Checklist: C:\Users\jessicalee\Documents\Onboarding_Checklist.docx
+Employee Handbook: C:\Users\jessicalee\Documents\Employee_Handbook.pdf
+Recruitment Plan: C:\Users\jessicalee\OneDrive\Desktop\Recruitment_Plan.xlsx
+Training Schedule: C:\Users\jessicalee\OneDrive\Desktop\Training_Schedule.pptx
+Payroll Report: C:\Users\jessicalee\Documents\Payroll\Monthly_Payroll_Report.xlsx
+Compliance Audit: C:\Users\jessicalee\Documents\Compliance\Compliance_Audit_Report.pdf
+Performance Review Summary: C:\Users\jessicalee\Documents\Reports\Performance_Review_Summary.docx
+Frequently Visited Websites:
+
+Website: Workday
+
+URL: https://workday.com
+Username: jessica_workday_user
+Password: workday_user_pw_abc123
+Website: BambooHR
+
+URL: https://www.bamboohr.com/login
+Username: jessica_bamboo_user
+Password: bamboohr_user_pw_xyz456
+Website: LinkedIn
+
+URL: https://www.linkedin.com
+Username: jessica_linkedin_user
+Password: linkedin_pw_789xyz
+Website: Google Workspace
+
+URL: https://workspace.google.com
+Username: jessica_google_user
+Password: google_pw_123xyz
+Website: Zoom
+
+URL: https://zoom.us/signin
+Username: jessica_zoom_user
+Password: zoom_pw_123abc
+Communication Channels:
+
+Microsoft Teams
+Work Chat ID: 559990099
+Home Chat ID: 123456789
+[End of System Variables].
+
+Task:
+For each task listed under Layer 1 Output, generate a time-stamped schedule of actions, from the list provided under Context, needed to complete the task.
+If no actions can complete the task, drop the task and indicate it with [task dropped].
+
+The software engineer's details are listed under environment details.
+Please include the relevant parameter values when necessary. You do not need to include all the values for each parameter.
+For parameters whose values are not included in the text file, please generate relevant and working values. If they refer to the software engineer's personal details not listed in the text file, please put [placeholder].
+
+
+Format:
+Please generate in the following format:
+Time,Action,Description,Parameter1,Value1,Parameter2,Value2,Parameter3,Value3,Parameter4,Value4,Parameter5,Value5
+09:00,Use browser to open URL,Watch YouTube,url,"https://www.youtube.com/watch?v=NQ1cvwEvh44",watchInterval,10,,,,
+10:00,Run one command,Ping google.com,cmdID,"pingGoogle",console,True,cmdStr,"ping -n 5 www.google.com.sg",repeat,1,interval,0.8
+11:00,Open Word document,Key in results of command,fileName,"placeholder.docx",openInterval,10,,,,
+13:30,Ping target,Ping www.singtel.com.sg,ipAddress,"www.singtel.com.sg",pingInterval,0.1,pingEcho,5,pingTimeout,1

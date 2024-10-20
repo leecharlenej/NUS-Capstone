@@ -1,0 +1,94 @@
+Profile: IT HR Administrator
+
+Name: Jessica Lee
+Position: Lead IT HR Administrator
+Email: jessicalee@company.com
+Phone: +1234987654
+[Organization Structure]
+
+Boss:
+
+Name: Michael Johnson
+Position: HR Director
+Email: michaeljohnson@company.com
+Phone: +1123456789
+Colleague 1:
+
+Name: David Kim
+Position: Senior IT Recruiter
+Email: davidkim@company.com
+Phone: +1123456780
+Colleague 2:
+
+Name: Laura Smith
+Position: IT HR Specialist
+Email: laurasmith@company.com
+Phone: +1234567800
+[End of Organization Structure]
+
+[System Variables]
+
+Applications:
+
+Application: Workday
+
+Username: jessicalee
+Password: workday_pw_abc123
+Application: BambooHR
+
+Username: jessicalee
+Password: bamboohr_pw_xyz456
+Application: Zoom
+
+Username: jessicalee
+Password: zoom_pw_123abc
+Folders on Workstation:
+
+Employee Records: C:\Users\jessicalee\Documents\Employee_Records
+Recruitment Documents: C:\Users\jessicalee\Documents\Recruitment
+Archived Reports: C:\Users\jessicalee\Documents\HR\Archived
+Training Materials: C:\Users\jessicalee\Documents\Training
+Compliance Documents: C:\Users\jessicalee\Documents\Compliance
+Payroll Reports: C:\Users\jessicalee\Downloads\Payroll
+Files on Workstation:
+
+Onboarding Checklist: C:\Users\jessicalee\Documents\Onboarding_Checklist.docx
+Employee Handbook: C:\Users\jessicalee\Documents\Employee_Handbook.pdf
+Recruitment Plan: C:\Users\jessicalee\OneDrive\Desktop\Recruitment_Plan.xlsx
+Training Schedule: C:\Users\jessicalee\OneDrive\Desktop\Training_Schedule.pptx
+Payroll Report: C:\Users\jessicalee\Documents\Payroll\Monthly_Payroll_Report.xlsx
+Compliance Audit: C:\Users\jessicalee\Documents\Compliance\Compliance_Audit_Report.pdf
+Performance Review Summary: C:\Users\jessicalee\Documents\Reports\Performance_Review_Summary.docx
+Frequently Visited Websites:
+
+Website: Workday
+
+URL: https://workday.com
+Username: jessica_workday_user
+Password: workday_user_pw_abc123
+Website: BambooHR
+
+URL: https://www.bamboohr.com/login
+Username: jessica_bamboo_user
+Password: bamboohr_user_pw_xyz456
+Website: LinkedIn
+
+URL: https://www.linkedin.com
+Username: jessica_linkedin_user
+Password: linkedin_pw_789xyz
+Website: Google Workspace
+
+URL: https://workspace.google.com
+Username: jessica_google_user
+Password: google_pw_123xyz
+Website: Zoom
+
+URL: https://zoom.us/signin
+Username: jessica_zoom_user
+Password: zoom_pw_123abc
+Communication Channels:
+
+Microsoft Teams
+Work Chat ID: 559990099
+Home Chat ID: 123456789
+[End of System Variables]

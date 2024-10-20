@@ -1,0 +1,153 @@
+Context:
+Actions - Parameters
+Ping target: ipAddress, pingInterval, pingEchoNum, pingTimeout
+Use browser to open URL: url,watchInterval
+Open Word document: filePath, openInterval
+Run one command: cmdID,console, cmdStr, repeat, interval
+Clone repo: dirPath, repoName, reporURL
+Hold Zoom meeting: username, meetingURL
+Take screenshot of website: url, outputFolder, driverMode
+Send Telegram: token, chatID, message
+Send email: username, appPassword, recipients, subject, message
+
+Layer 1 Output:
+```
+9:00 am	Start work, review and respond to emails
+9:20 am	Code refactoring: Improve code readability and maintainability for Project A
+10:00 am	Performance optimization: Profile and enhance the performance of the new feature
+10:45 am	Non-work: Take a short break, check social media
+11:00 am	Infrastructure management: Update and monitor the cloud infrastructure
+12:00 pm	Lunch break, take a walk outside
+1:00 pm	Debugging: Fix critical issues in the user authentication module
+2:00 pm	Team meeting: Hold a Zoom call with the operations team
+2:45 pm	Non-work: Send a Telegram message to a friend to catch up
+3:00 pm	Code deployment automation: Streamline deployment scripts for continuous delivery
+3:30 pm	Research: Investigate the latest trends in container orchestration
+4:00 pm	Non-work: Watch a YouTube video on mindfulness techniques
+4:15 pm	Documentation: Update API documentation with recent changes
+4:45 pm	Prepare and send a summary of the day’s activities to the team lead
+5:00 pm	End work, log off
+```
+
+Environment details:
+Profile: Software Enginner
+- Name: John Doe
+- Position: Lead Software Engineer
+- Email: johndoe@company.com
+- Phone: +1234567890
+
+[Organization Structure]
+Boss:
+- Name: Sarah Johnson
+- Position: Engineering Manager
+- Email: sarahjohnson@company.com
+- Phone: +1122334455
+
+Colleague 1:
+- Name: Jane Smith
+- Position: Software Engineer
+- Email: janesmith@company.com
+- Phone: +0987654321
+
+Colleague 2:
+- Name: Matthew Lee
+- Position: Junior Software Engineer
+- Email: matthewlee@company.com
+- Phone: +1234564755
+
+[End of Organization Structure]
+
+[System Variables]
+
+Applications:
+1. Application: GitHub
+   - Username: johndoe
+   - Password: github_token_abc123
+
+2. Application: Zoom
+   - Username: johndoe
+   - Password: zoom_Password123
+
+
+Folders on Workstation
+- Project Folders: C:\Users\johndoe\Projects 
+- Documents Folders: C:\Users\johndoe\Documents
+- Archived Projects: C:\Users\johndoe\Projects\Archived\Old_API_Docs
+- Git Repositories: C:\Users\johndoe\Documents\Git_Repositories
+- Meeting Notes: C:\Users\johndoe\Documents\Meeting_Notes
+- SDKs and Tools: C:\Users\johndoe\Downloads\SDKs_and_Tools
+
+Files on Workstation
+- Report Document: C:\Users\johndoe\Documents\Report.docx
+- Presentation Slides: C:\Users\johndoe\Documents\Presentation.pptx
+- Project Roadmap: C:\Users\johndoe\OneDrive\Desktop\Project_Roadmap.xlsx
+- Code Review Guidelines: C:\Users\johndoe\OneDrive\Desktop\Code_Review_Guidelines.pdf
+- Git Repository Readme: C:\Users\johndoe\Documents\Git_Repositories\readme.md
+- Architecture Diagram: C:\Users\johndoe\Projects\Current\Microservice_Architecture\Architecture_Diagram.vsdx
+- Standup Meeting Notes: C:\Users\johndoe\Documents\Meeting_Notes\Standup_Meeting_Notes.txt
+- Report Document: C:\Users\johndoe\OneDrive\Desktop\Report.docx
+
+Frequently Visited Websites:
+1. Website: GitHub
+   - URL: https://github.com/johndoe_dev
+   - Username: johndoe_dev_user
+   - Password: github_password_abc123
+
+2. Website: Git Repository
+   - URL: https://github.com/johndoe_dev/microservice_repo.git
+   - Username: repo_user_johndoe
+   - Password: repo_access_token_789xyz
+
+3. Website: Azure Documentation
+   - URL: https://docs.microsoft.com/en-us/azure/architecture/
+   - Username: azure_doc_user
+   - Password: azure_doc_pw_123abc
+
+4. Website: Stack Overflow
+   - URL: https://stackoverflow.com/
+   - Username: johndoe_stackoverflow_user
+   - Password: stackoverflow_pw_456xyz
+
+5. Website: JIRA Project Management
+   - URL: https://www.jira.com/login
+   - Username: johndoe_jira_user
+   - Password: jira_login_pw_321def
+
+6. Website: Confluence Wiki
+   - URL: https://confluence.company.com
+   - Username: johndoe_confluence_user
+   - Password: confluence_pw_654hjk
+
+7. Website: Google
+   - URL: https://www.google.com
+   - Username: johndoe_google_user
+   - Password: google_pw_987uvw
+
+8. Website: YouTube
+   - URL: https://www.youtube.com/watch?v=NQ1cvwEvh44
+   - Username: johndoe_youtube_user
+   - Password: youtube_pw_321ghj
+
+Communication Channels:
+1. Telegram
+  Work Chat ID: 448238802
+  Home Chat ID: 111111111
+
+[End of System Variables].
+
+Task:
+For each task listed under Layer 1 Output, generate a time-stamped schedule of actions, from the list provided under Context, needed to complete the task.
+If no actions can complete the task, drop the task and indicate it with [task dropped].
+
+The software engineer's details are listed under environment details.
+Please include the relevant parameter values when necessary. You do not need to include all the values for each parameter.
+For parameters whose values are not included in the text file, please generate relevant and working values. If they refer to the software engineer's personal details not listed in the text file, please put [placeholder].
+
+
+Format:
+Please generate in the following format:
+Time,Action,Description,Parameter1,Value1,Parameter2,Value2,Parameter3,Value3,Parameter4,Value4,Parameter5,Value5
+09:00,Use browser to open URL,Watch YouTube,url,"https://www.youtube.com/watch?v=NQ1cvwEvh44",watchInterval,10,,,,
+10:00,Run one command,Ping google.com,cmdID,"pingGoogle",console,True,cmdStr,"ping -n 5 www.google.com.sg",repeat,1,interval,0.8
+11:00,Open Word document,Key in results of command,fileName,"placeholder.docx",openInterval,10,,,,
+13:30,Ping target,Ping www.singtel.com.sg,ipAddress,"www.singtel.com.sg",pingInterval,0.1,pingEcho,5,pingTimeout,1
