@@ -1,4 +1,4 @@
-Profile: Software Enginner
+Profile: Software Engineer
 - Name: John Doe
 - Position: Lead Software Engineer
 - Email: johndoe@company.com
